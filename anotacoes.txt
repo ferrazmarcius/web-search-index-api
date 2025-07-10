@@ -1,0 +1,38 @@
+TRABALHOS CRON>
+
+minuto: 5
+hora: 4
+
+dia, mes e dia da semana: *
+
+CRON BASH:
+
+/usr/bin/php /home/srwjtjqc/clictresdemaio.com/gestor-api-google-ab93n5/cron_submit.php > /dev/null 2>&1
+
+substituir tudo entre o /home até o /cron_submit.php
+
+
+o que substituir nos arquivos:
+
+No ficheiro index.php:
+
+PHP
+
+// ----------- CONFIGURAÇÃO -----------
+// Opcional: Defina uma nova senha para esta ferramenta.
+$senha_de_acesso = 'SenhaForteParaNovoSite456!';
+
+// OBRIGATÓRIO: Coloque o nome do novo ficheiro JSON.
+$caminho_chave_json = 'meunovosite-api-xxxxxxxx.json'; 
+
+No ficheiro cron_submit.php:
+
+PHP
+
+// ----------- CONFIGURAÇÃO -----------
+// OBRIGATÓRIO: Altere para o URL do sitemap do NOVO domínio.
+define('SITEMAP_URL', 'https://novodominio.com/sitemap.xml'); 
+
+// OBRIGATÓRIO: Coloque o nome do novo ficheiro JSON.
+define('SERVICE_ACCOUNT_KEY_FILE', 'meunovosite-api-xxxxxxxx.json');
+
