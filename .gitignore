@@ -1,0 +1,3 @@
+# Ignorar ficheiros de segredos e logs
+service-account-key.json
+submission_history.log
