@@ -1,6 +1,6 @@
 <?php
 // ----------- CONFIGURAÇÃO -----------
-$senha_de_acesso = 'projetostart@2024';
+$senha_de_acesso = 'SUASENHASECRETA#@!';
 $caminho_chave_json = 'service-account-key.json'; 
 
 // ----------- LÓGICA DO SCRIPT (VERSÃO AUTÓNOMA) -----------
